@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+}
+
+@keyframes fadeIn{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+#branding {
+    font-size: xx-large;
+   font-weight: 600;
+}
+
+.navbar{
+    font-weight:600;
+    font-size:large;
+    border-top-color:white;
+    border-bottom-width:0.75rem;
+    border-bottom-style:ridge;
+    border-bottom-color: azure;
+    width:100%;
+    height: 100px;
+    color: aliceblue;
+    text-decoration-color: aliceblue;
+    background-image: linear-gradient(to right, rgb(81, 169, 194),rgb(31, 213, 253));
+}
+.dropdown-menu{
+    background-image: linear-gradient(to left,rgb(81, 169, 194),rgb(31, 213, 253));
+    color: aliceblue;
+}
+.navbar a{
+    color: aliceblue;
+}
+.nav-item a{
+   
+    color: aliceblue;
+}
+.place{
+    font-weight: 800;
+    padding-left:2%;
+    
+}
+#background{
+    padding-right: 1%;
+    background-image: linear-gradient(to left,rgb(81, 169, 194),rgb(31, 213, 253));
+    text-shadow: 2px 2px 2px rgb(101, 157, 246);
+    text-decoration-color: rgb(175, 225, 225);
+}
+#para h1{
+    color: black;
+}
+#para2 b{
+    color: black;
+}
+#para2{
+    color: aliceblue;
+    font-size: medium;
+}
+.footer{
+    padding-top: 3%;
+    padding-bottom: 4%;
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #2c3e50;
+}
